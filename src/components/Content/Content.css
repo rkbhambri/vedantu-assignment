@@ -1,0 +1,18 @@
+
+.content {
+    width: 80%;
+    padding: 3% 10%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .profile-data {
+    width: 30%;
+}
+
+.content .repositories {
+    width: 70%;
+}
