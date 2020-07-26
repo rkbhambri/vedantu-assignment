@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vedantu-assignment/static/css/main.0e55862f.chunk.css",
-    "main.js": "/vedantu-assignment/static/js/main.5157cc4a.chunk.js",
-    "main.js.map": "/vedantu-assignment/static/js/main.5157cc4a.chunk.js.map",
+    "main.js": "/vedantu-assignment/static/js/main.7bda98be.chunk.js",
+    "main.js.map": "/vedantu-assignment/static/js/main.7bda98be.chunk.js.map",
     "runtime-main.js": "/vedantu-assignment/static/js/runtime-main.e6f02b88.js",
     "runtime-main.js.map": "/vedantu-assignment/static/js/runtime-main.e6f02b88.js.map",
     "static/js/2.b401ba71.chunk.js": "/vedantu-assignment/static/js/2.b401ba71.chunk.js",
     "static/js/2.b401ba71.chunk.js.map": "/vedantu-assignment/static/js/2.b401ba71.chunk.js.map",
     "index.html": "/vedantu-assignment/index.html",
-    "precache-manifest.94fbde99da8a46b43ac2d0ded5c46c95.js": "/vedantu-assignment/precache-manifest.94fbde99da8a46b43ac2d0ded5c46c95.js",
+    "precache-manifest.f92ccd0a91b70e4acd56890add410bd4.js": "/vedantu-assignment/precache-manifest.f92ccd0a91b70e4acd56890add410bd4.js",
     "service-worker.js": "/vedantu-assignment/service-worker.js",
     "static/css/main.0e55862f.chunk.css.map": "/vedantu-assignment/static/css/main.0e55862f.chunk.css.map",
     "static/js/2.b401ba71.chunk.js.LICENSE.txt": "/vedantu-assignment/static/js/2.b401ba71.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e6f02b88.js",
     "static/js/2.b401ba71.chunk.js",
     "static/css/main.0e55862f.chunk.css",
-    "static/js/main.5157cc4a.chunk.js"
+    "static/js/main.7bda98be.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "445f23abc99aa2eb6a904364bc27e85f",
+    "revision": "af60a8dbe6630e96cffe9c88c2b4ef5a",
     "url": "/vedantu-assignment/index.html"
   },
   {
-    "revision": "d8fe3b8acfe6bce76693",
+    "revision": "2c514d33da3aa449c797",
     "url": "/vedantu-assignment/static/css/main.0e55862f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vedantu-assignment/static/js/2.b401ba71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8fe3b8acfe6bce76693",
-    "url": "/vedantu-assignment/static/js/main.5157cc4a.chunk.js"
+    "revision": "2c514d33da3aa449c797",
+    "url": "/vedantu-assignment/static/js/main.7bda98be.chunk.js"
   },
   {
     "revision": "d3ceb9e165ecf8d5e529",
