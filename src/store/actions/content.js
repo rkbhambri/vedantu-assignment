@@ -15,7 +15,7 @@ export const getProfileData = () => {
                 }
             })
             .catch(error => {
-
+                alert('Api error');
             });
     };
 };
@@ -31,6 +31,7 @@ export const getUserRepositories = () => {
             .then(response => {
                 if (response.data) {
                     dispatch(setUserRepositories(response.data));
+                    alert('Api error');
                 }
             })
             .catch(error => {
