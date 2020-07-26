@@ -2,11 +2,11 @@
 .profile-data .profile-pic {
     height: 300px;
     width: 300px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 .profile-data .name {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 26px;
     font-weight: 600;
     line-height: 30px;
@@ -23,5 +23,14 @@
 
 .profile-data .bio {
     margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #ccc;
+    margin: 15px 40px 10px 0px;
+    padding-bottom: 10px;
 }
 
+.profile-data .company, .profile-data .location{
+    font-size: 14px;    
+    line-height: 1.8rem;
+}

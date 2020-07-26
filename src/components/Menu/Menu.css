@@ -1,0 +1,27 @@
+
+.menu {
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: 20px;
+  padding-left: 565px;
+  /* text-align: center; */
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px 5px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #ccc;
+}
+
+.menu a.active {
+  border-bottom: 3px solid #ccc;
+}

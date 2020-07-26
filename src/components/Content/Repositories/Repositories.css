@@ -1,4 +1,15 @@
 
+.repositories .no-data-found {
+    margin-top: 30px;
+}
+
+.repositories .repository {
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
 .repositories .repository .repository-name {
     color: #0366d6;
     text-decoration: none;
@@ -6,6 +17,50 @@
     font-weight: 600;
 }
 
-.repositories .repository .languages-used {
-    font-size: 15px;
+.repositories  .repository  .star  {
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 3px 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #24292e;
+    background-color: #fafbfc;
+    border-color: rgba(27,31,35,.15);
+    box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
+    transition: background-color .2s cubic-bezier(.3,0,.5,1);
+}
+
+.repositories .repository  .repository-details {
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #586069;
+    width: 300px;
+    max-width: 80%;
+    justify-content: space-between;
+}
+
+.repositories .repository .repository-details .languages-used {
+    font-size: 13px;
+}
+
+.repositories hr {
+    margin-top: 15px;
+    border: 1px solid #eee;
 }

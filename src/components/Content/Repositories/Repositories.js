@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
-// import { isNull } from '../../../helpers/miscellenous';
 import * as actionCreaters from '../../../store/actions';
 import './Repositories.css';
 import Search from '../../Search/Search';
 import Repository from './Repository/Repository';
+import { isEmpty, isArrayEmpty } from '../../../helpers/miscellenous';
 
 const Repositories = (props) => {
 
     const [searchedRepositories, setSearchedRepositories] = useState([]);
+    const [searchValue, setSearchValue] = useState('');
 
     useEffect(() => {
         props.onGetUserRepositories();
@@ -16,14 +17,16 @@ const Repositories = (props) => {
 
     const searchRepository = (value) => {
         const searchedRepositories = props.repositories.filter(item => {
-            return item.title.toLowerCase.search(value.toLowerCase()) !== -1;
+            return item.name.toLowerCase().search(value.toLowerCase()) !== -1;
         });
+        console.log('==searchedRepositories==', searchedRepositories);
+        setSearchValue(value);
         setSearchedRepositories(searchedRepositories);
     };
 
     const getSearchedRepositories = () => {
         return (
-            props.searchedRepositories.map(item => {
+            searchedRepositories.map(item => {
                 return <Repository repository={item} />
             })
         );
@@ -37,11 +40,19 @@ const Repositories = (props) => {
         );
     };
 
+    console.log('==repositories==', props.repositories);
+
     return (
         <div className="repositories">
             <Search search={(value) => searchRepository(value)} />
             <hr />
-            {searchedRepositories.length > 0 ? getSearchedRepositories() : getRepositories()}
+            {searchValue.length > 0 ? getSearchedRepositories() : getRepositories()}
+            {
+                !isEmpty(searchValue) && isArrayEmpty(searchedRepositories) &&
+                <h1 className="no-data-found">
+                    No Data Found
+                </h1>
+            }
         </div>
     );
 };

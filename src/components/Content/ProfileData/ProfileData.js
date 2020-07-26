@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-// import { isNull } from '../../../helpers/miscellenous';
 import * as actionCreaters from '../../../store/actions';
 import './ProfileData.css';
 
